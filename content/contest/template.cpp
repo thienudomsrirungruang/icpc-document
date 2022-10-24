@@ -1,14 +1,28 @@
-#include <bits/stdc++.h>
+#include<bits/stdc++.h>
+
 using namespace std;
 
-#define rep(i, a, b) for(int i = a; i < (b); ++i)
+using ll = long long;
+#define rep2(i, m, n) for (auto i = (m); i < (n); i++)
+#define rep(i, n) rep2(i, 0, n)
+#define repr2(i, m, n) for (auto i = (n); i-- > (m);)
+#define repr(i, n) repr2(i, 0, n)
 #define all(x) begin(x), end(x)
 #define sz(x) (int)(x).size()
-typedef long long ll;
-typedef pair<int, int> pii;
-typedef vector<int> vi;
+
+using pii = pair<int, int>;
+using vi = vector<int>;
+using vvi = vector<vi>;
+using vll = vector<ll>;
+using vvll = vector<vll>;
+using vpii = vector<pii>;
+
+void solve(){
+	
+}
 
 int main() {
 	cin.tie(0)->sync_with_stdio(0);
 	cin.exceptions(cin.failbit);
+	solve();
 }
