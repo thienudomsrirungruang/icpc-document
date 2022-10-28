@@ -25,6 +25,10 @@ kactl: test-session.pdf | build
 	$(LATEXCMD) content/kactl.tex && $(LATEXCMD) content/kactl.tex
 	cp build/kactl.pdf kactl.pdf
 
+java: build
+	$(LATEXCMD) content/kactl_java.tex && $(LATEXCMD) content/kactl_java.tex
+	cp build/kactl_java.pdf kactl_java.pdf
+
 clean:
 	cd build && rm -f kactl.aux kactl.log kactl.tmp kactl.toc kactl.pdf kactl.ptc
 
